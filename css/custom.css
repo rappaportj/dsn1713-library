@@ -1,0 +1,93 @@
+/* ===== PAGE BACKGROUND ===== */
+.page-bg {
+  min-height: 100vh;
+  background: #d5d8ea; 
+}
+
+/* ===== NAVBAR ===== */
+.navbar-color {
+  background: #0fb9b1;   
+  backdrop-filter: blur(6px);
+}
+
+/* ===== HERO SECTION ===== */
+.hero-section {
+  padding: 4rem  3rem;
+}
+
+.hero-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(15, 185, 177, 0.9); 
+  color: #f7f9fc;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.hero-title {
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+
+.hero-text {
+  color: #e2ecff;
+}
+
+/* Accent primary button */
+.btn-accent {
+  background-color: #0fb9b1;
+  border: none;
+  color: #071e3d;
+  font-weight: 600;
+  padding-inline: 1.75rem;
+}
+
+.btn-accent:hover {
+  background-color: #0aa59f;
+  color: #071e3d;
+}
+
+/* Outline buttons on hero */
+.hero-outline {
+  border-width: 2px;
+  border-color: #f7f9fc;
+}
+
+/* ===== DARK SECTION ===== */
+.section-dark {
+  background: #071e3d; 
+}
+
+.section-title {
+  color: #ffb997; 
+  font-weight: 700;
+}
+
+.feature-text {
+  background: rgba(65, 100, 146, 0.85);
+  border: 1px solid rgba(255, 185, 151, 0.3);
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+/* ===== CONTENT CARDS ===== */
+.content-card {
+  background: #4b7a87; 
+  border: 1px solid rgba(161, 106, 232, 0.2);
+  color: #ffffff;
+  border-radius: 0.75rem;
+}
+
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.block {
+  display: inline-block;
+  padding: 2rem;
+}
+
+.waterfall {
+  max-width: 1600px;
+}
